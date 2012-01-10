@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="OTHER" id="6">
+  <actions>
+    <action id="709" library="1">
+      <!--action name: Highscore_Show-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_highscore_show</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="BACKGROUND">back_sky</argument>
+        <argument kind="MENU">1</argument>
+        <argument kind="COLOR">255</argument>
+        <argument kind="COLOR">0</argument>
+        <argument kind="FONTSTRING">Arial,12,0,1,0,0,0</argument>
+      </arguments>
+    </action>
+    <action id="331" library="1">
+      <!--action name: Restart_Game-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_restart_game</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+  </actions>
+</event>

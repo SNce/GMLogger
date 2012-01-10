@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="spr_block" type="RESOURCE"/>
+  <resource name="spr_blockh" type="RESOURCE"/>
+  <resource name="spr_death" type="RESOURCE"/>
+  <resource name="spr_blockv" type="RESOURCE"/>
+  <resource name="spr_ladder" type="RESOURCE"/>
+  <resource name="spr_right" type="RESOURCE"/>
+  <resource name="spr_left" type="RESOURCE"/>
+  <resource name="monsters" type="GROUP"/>
+  <resource name="spr_mushroom" type="RESOURCE"/>
+  <resource name="spr_level" type="RESOURCE"/>
+  <resource name="spr_climbing" type="RESOURCE"/>
+  <resource name="spr_life" type="RESOURCE"/>
+  <resource name="spr_bullet" type="RESOURCE"/>
+  <resource name="spr_ammunition" type="RESOURCE"/>
+  <resource name="spr_bonus" type="RESOURCE"/>
+</resources>

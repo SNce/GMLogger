@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="spr_monsterl" type="RESOURCE"/>
+  <resource name="spr_monsterr" type="RESOURCE"/>
+  <resource name="spr_monsterflat" type="RESOURCE"/>
+  <resource name="spr_marker" type="RESOURCE"/>
+  <resource name="spr_flyingl" type="RESOURCE"/>
+  <resource name="spr_flyingr" type="RESOURCE"/>
+</resources>

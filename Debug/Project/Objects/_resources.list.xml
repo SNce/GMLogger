@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="obj_character" type="RESOURCE"/>
+  <resource name="obj_block" type="RESOURCE"/>
+  <resource name="obj_blockh" type="RESOURCE"/>
+  <resource name="obj_blockv" type="RESOURCE"/>
+  <resource name="obj_monster" type="RESOURCE"/>
+  <resource name="obj_flyer" type="RESOURCE"/>
+  <resource name="obj_marker" type="RESOURCE"/>
+  <resource name="obj_monster_dead" type="RESOURCE"/>
+  <resource name="obj_mushroom" type="RESOURCE"/>
+  <resource name="obj_levelexit" type="RESOURCE"/>
+  <resource name="obj_death" type="RESOURCE"/>
+  <resource name="obj_ladder" type="RESOURCE"/>
+  <resource name="obj_bullet" type="RESOURCE"/>
+  <resource name="obj_ammunition" type="RESOURCE"/>
+  <resource name="obj_controller" type="RESOURCE"/>
+  <resource name="obj_bonus" type="RESOURCE"/>
+</resources>
