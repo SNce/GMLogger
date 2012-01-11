@@ -14,5 +14,4 @@ int main(int args, char** argv)
 	project->getList("bg");
 	project->getList("room");
 	project->getList("sound");
-	std::cout<<"over";
 }
