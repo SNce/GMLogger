@@ -1,0 +1,19 @@
+# Visual Studio stuff
+Release
+bin
+obj
+*.ncb
+*.vcproj*
+*.suo
+*.user
+*.sln.cache
+
+#binary stuff
+/*.dll
+*.pdb
+*.mdb
+*.exe
+
+#config stuff
+*.config
+*.resources
