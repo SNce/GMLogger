@@ -2,8 +2,6 @@
 #define _XML_READER_
 
 #include <rapidxml/rapidxml.hpp>
-#include <iostream>
-#include <string>
 
 using namespace rapidxml;
 
