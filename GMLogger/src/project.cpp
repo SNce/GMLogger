@@ -30,18 +30,46 @@ Project::Project()
 {
 }
 
-void Project::getObjList()
+void Project::getList(char* type)
 {
 	char* path;
-	path = getPath("Objects\\_resources.list.xml");
-	xml_document<> obj_resources;
-	parseXML(obj_resources, path);
+	xml_document<> _resources;
 
-	for(xml_node<>* node = obj_resources.first_node()->first_node();
+	list<char*>* lst;
+	
+	if(!strcmp(type, "obj"))
+	{
+		lst = &this->objList;
+		path = getPath("Objects\\_resources.list.xml");
+	}
+	else if(!strcmp(type, "spr"))
+	{
+		lst = &this->sprList;
+		path = getPath("Sprites\\_resources.list.xml");
+	}
+	else if(!strcmp(type, "bg"))
+	{
+		lst = &this->bgList;
+		path = getPath("Backgrounds\\_resources.list.xml");
+	}
+	else if(!strcmp(type, "room"))
+	{
+		lst = &this->roomList;
+		path = getPath("Rooms\\_resources.list.xml");
+	}
+	else if(!strcmp(type, "sound"))
+	{
+		lst = &this->soundList;
+		path = getPath("Sounds\\_resources.list.xml");
+	}
+
+	parseXML(_resources, path);
+
+	for(xml_node<>* node = _resources.first_node()->first_node();
 			node;
 			node = node->next_sibling())
 	{
 		xml_attribute<>* name = node->first_attribute();
-		this->objList.push_back(name->value());
+		lst->push_back(name->value());
 	}
 }

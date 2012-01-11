@@ -9,5 +9,10 @@ using namespace rapidxml;
 int main(int args, char** argv)
 {
 	Project* project = new Project();
-	project->getObjList();
+	project->getList("obj");
+	project->getList("spr");
+	project->getList("bg");
+	project->getList("room");
+	project->getList("sound");
+	std::cout<<"over";
 }

@@ -13,14 +13,10 @@ private:
 	list<char*> sprList;
 	list<char*> bgList;
 	list<char*> roomList;
-	list<char*> sounds;
+	list<char*> soundList;
 public:
 	Project();
-	void getObjList();
-	void getSprList();
-	void getBgList();
-	void getRoomList();
-	void getSoundList();
+	void getList(char* type);
 };
 
 #endif
