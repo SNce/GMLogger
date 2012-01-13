@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="snd_killmonser" type="RESOURCE"/>
-  <resource name="snd_killcharacter" type="RESOURCE"/>
-  <resource name="snd_getmushroom" type="RESOURCE"/>
-  <resource name="snd_finishlevel" type="RESOURCE"/>
-</resources>
