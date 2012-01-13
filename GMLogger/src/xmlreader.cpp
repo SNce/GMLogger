@@ -6,7 +6,7 @@
 
 using namespace rapidxml;
 
-void parseXML(xml_document<>& doc, char* filename)
+int parseXML(xml_document<>& doc, char* filename)
 {
 	char* docText;
 
@@ -21,7 +21,12 @@ void parseXML(xml_document<>& doc, char* filename)
 		while(getline(file, line))
 			buffer += line;
 	}
-	
+	else
+	{
+		file.close();
+		return -1;
+	}
+
 	file.close();
 	
 	docText = new char[buffer.size() + 1];
@@ -29,4 +34,5 @@ void parseXML(xml_document<>& doc, char* filename)
 	docText[buffer.size()] = '\0';
 
 	doc.parse<0>(docText);
+	return 1;
 }
